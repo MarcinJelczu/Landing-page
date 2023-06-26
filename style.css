@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  margin: 0px;
+}
+.hero {
+  background-color: #1f2937;
+  width: 100vw;
+  padding: 0 200px;
+}
+.header {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.header-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
