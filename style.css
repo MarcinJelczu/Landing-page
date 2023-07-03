@@ -2,15 +2,33 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Times New Roman", Times, serif;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0px;
+  height: 100vh;
 }
 .hero {
   background-color: #1f2937;
-  padding: 0 200px;
+  padding: 10px 10% 50px 10%;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.first-section-image {
+  height: 200px;
+  width: auto;
+}
+.hero-secondary-text {
+  margin-bottom: 25px;
 }
 .first-section-text {
   color: white;
+  height: 200px;
 }
 .hero-button {
   background-color: #3882f6;
@@ -80,4 +98,35 @@ body {
 }
 .iron-man {
   text-align: end;
+}
+.fourth-section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  width: 600px;
+  margin: 100px auto;
+  color: white;
+  padding: 40px 100px;
+  border-radius: 10px;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 20px;
+  border: solid white 1.5px;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.fourth-section-container-text h3,
+p {
+  margin: 1px 0;
 }
